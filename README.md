@@ -67,7 +67,7 @@ The app won't work until you set up the database, as described below.
 
 This demo uses Postgres. First, follow its [installation link](https://wiki.postgresql.org/wiki/Detailed_installation_guides) for your platform.
 
-Alternatively, you can check out this [fork](https://github.com/pomber/server-components-demo/) which will let you run the demo app without needing a database. However, you won't be able to execute SQL queries (but fetch should still work). There is also [another fork](https://github.com/prisma/server-components-demo) that uses Prisma with SQLite, so it doesn't require additional setup.
+Alternatively, you can check out this [fork] which will let you run the demo app without needing a database. However, you won't be able to execute SQL queries (but fetch should still work). There is also [another fork]) that uses Prisma with SQLite, so it doesn't require additional setup.
 
 The below example will set up the database for this app, assuming that you have a UNIX-like platform:
 
@@ -133,19 +133,12 @@ This demo is built on top of our Webpack plugin, but this is not how we envision
   - If you uncomment it in both, it won't be very interesting because we have nothing new to show until they both respond.
 - Add a new Server Component and place it above the search bar in `App.js`. Import `db` from `db.js` and use `await db.query()` from it to get the number of notes. Oberserve what happens when you add or delete a note.
 
-You can watch a [recorded walkthrough of all these demo points here](https://youtu.be/La4agIEgoNg?t=600) with timestamps. (**Note:** this recording is slightly outdated because the repository has been updated to match the [latest conventions](https://react.dev/blog/2023/03/22/react-labs-what-we-have-been-working-on-march-2023#react-server-components).)
+You can watch a [recorded walkthrough of all these demo points here] with timestamps. (**Note:** this recording is slightly outdated because the repository has been updated to match the [latest conventions](https://react.dev/blog/2023/03/22/react-labs-what-we-have-been-working-on-march-2023#react-server-components).)
 
 ## Built by (A-Z)
 
-- [Andrew Clark](https://twitter.com/acdlite)
-- [Dan Abramov](https://twitter.com/dan_abramov)
-- [Joe Savona](https://twitter.com/en_JS)
-- [Lauren Tan](https://twitter.com/sugarpirate_)
-- [Sebastian Markbåge](https://twitter.com/sebmarkbage)
-- [Tate Strickland](http://www.tatestrickland.com/) (Design)
-
 ## [Code of Conduct](https://engineering.fb.com/codeofconduct/)
-Facebook has adopted a Code of Conduct that we expect project participants to adhere to. Please read the [full text](https://engineering.fb.com/codeofconduct/) so that you can understand what actions will and will not be tolerated.
+Facebook has adopted a Code of Conduct that we expect project participants to adhere to. Please read the [full text] so that you can understand what actions will and will not be tolerated.
 
 ## License
 This demo is MIT licensed.
